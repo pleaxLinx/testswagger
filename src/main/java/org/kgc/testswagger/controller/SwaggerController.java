@@ -17,5 +17,9 @@ public class SwaggerController {
     public User getUser(){
         return new User();
     }
+    @GetMapping("/xpl")
+    public String getXpl(){
+        return "Xpl;";
+    }
 
 }
